@@ -141,9 +141,10 @@ const ContactSection = () => {
                 <div className="flex gap-4">
                   {socialLinks.map(social => {
                   const IconComponent = social.icon;
-                  return <a key={social.name} href={social.url} target="_blank" rel="noopener noreferrer" className={`p-4 glass rounded-lg hover:scale-110 transition-all duration-300 ${social.color} group`}>
-                        
-                      </a>;
+                  return <a key={social.name} href={social.url} target="_blank" rel="noopener noreferrer" aria-label={social.name} title={social.name} className={`p-4 glass rounded-lg hover:scale-110 transition-all duration-300 ${social.color} group`}>
+                          <IconComponent className="w-6 h-6" aria-hidden="true" />
+                          <span className="sr-only">{social.name}</span>
+                        </a>;
                 })}
                 </div>
                 
