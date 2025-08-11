@@ -61,9 +61,11 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up" style={{
           animationDelay: "0.6s"
         }}>
-            <Button variant="hero" size="lg" className="group">
-              <Download className="w-5 h-5 group-hover:animate-bounce" />
-              View Resume
+            <Button asChild variant="hero" size="lg" className="group" aria-label="View Resume">
+              <a href="https://drive.google.com/file/d/1jqwB-jd3h5Nw5O3HBfTEdvsQQI5iGElf/view" target="_blank" rel="noopener noreferrer">
+                <Download className="w-5 h-5 group-hover:animate-bounce" />
+                View Resume
+              </a>
             </Button>
             <Button variant="neon" size="lg" className="group">
               <Eye className="w-5 h-5 group-hover:scale-110 transition-transform" />

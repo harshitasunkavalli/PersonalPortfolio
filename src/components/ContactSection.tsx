@@ -36,7 +36,7 @@ const ContactSection = () => {
   const socialLinks = [{
     name: "LinkedIn",
     icon: Linkedin,
-    url: "https://linkedin.com/in/harshita-sunkavalli",
+    url: "https://www.linkedin.com/in/harshita-sunkavalli1616/",
     color: "hover:text-blue-400"
   }, {
     name: "GitHub",

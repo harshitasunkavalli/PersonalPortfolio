@@ -15,7 +15,7 @@ const AboutSection = () => {
       icon: GraduationCap,
     },
     {
-      year: "2020-2024",
+      year: "2020-2026",
       institution: "KL University",
       degree: "B.Tech",
       icon: Award,
@@ -61,7 +61,7 @@ const AboutSection = () => {
 
               {/* Skills Snapshot */}
               <div className="glass-card p-8 rounded-2xl">
-                <h3 className="text-2xl font-bold mb-6 text-secondary">Skills Snapshot</h3>
+                <h3 className="text-2xl font-bold mb-6 text-secondary">Skills</h3>
                 <div className="flex flex-wrap gap-3">
                   {skills.map((skill, index) => (
                     <span
@@ -81,7 +81,7 @@ const AboutSection = () => {
             {/* Education Timeline */}
             <div className="space-y-6">
               <h3 className="text-2xl font-bold mb-8 text-center lg:text-left">
-                Education <span className="gradient-text">Timeline</span>
+                <span className="gradient-text">Education</span>
               </h3>
               
               <div className="relative">
