@@ -28,9 +28,7 @@ const HeroSection = () => {
           {/* Profile Photo */}
           <div className="mb-8 animate-fade-scale">
             <div className="relative inline-block">
-              <div className="w-40 h-40 md:w-48 md:h-48 mx-auto rounded-full overflow-hidden border-4 border-primary/30 shadow-neon animate-pulse-glow">
-                
-              </div>
+              
               
             </div>
           </div>
