@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, MapPin, Linkedin, Github, Twitter, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Github, Send } from "lucide-react";
 import { toast } from "sonner";
 const ContactSection = () => {
   const [formData, setFormData] = useState({
@@ -43,27 +43,22 @@ const ContactSection = () => {
     icon: Github,
     url: "https://github.com/harshita-sunkavalli",
     color: "hover:text-gray-400"
-  }, {
-    name: "Twitter",
-    icon: Twitter,
-    url: "https://twitter.com/harshita_dev",
-    color: "hover:text-blue-300"
   }];
   const contactInfo = [{
     icon: Mail,
     label: "Email",
-    value: "harshita.sunkavalli@example.com",
-    link: "mailto:harshita.sunkavalli@example.com"
+    value: "harshitasunkavalli@gmail.com",
+    link: "mailto:harshitasunkavalli@gmail.com"
   }, {
     icon: Phone,
     label: "Phone",
-    value: "+91 12345 67890",
-    link: "tel:+911234567890"
+    value: "9347707353",
+    link: "tel:9347707353"
   }, {
     icon: MapPin,
     label: "Location",
-    value: "Hyderabad, India",
-    link: "https://maps.google.com/?q=Hyderabad,India"
+    value: "Nallajerla",
+    link: "https://maps.google.com/?q=Nallajerla"
   }];
   return <section id="contact" className="py-20 relative">
       <div className="container mx-auto px-4">
