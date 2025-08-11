@@ -41,7 +41,7 @@ const ContactSection = () => {
   }, {
     name: "GitHub",
     icon: Github,
-    url: "https://github.com/harshita-sunkavalli",
+    url: "https://github.com/harshitasunkavalli",
     color: "hover:text-gray-400"
   }];
   const contactInfo = [{

@@ -53,8 +53,10 @@ const Footer = () => {
               <p className="text-muted-foreground text-sm">
                 Let's connect and build something amazing together!
               </p>
-              <Button variant="outline" size="sm" className="w-full">
-                Download Resume
+              <Button asChild variant="outline" size="sm" className="w-full">
+                <a href="https://drive.google.com/file/d/1jqwB-jd3h5Nw5O3HBfTEdvsQQI5iGElf/view" target="_blank" rel="noopener noreferrer" aria-label="Download Resume">
+                  Download Resume
+                </a>
               </Button>
             </div>
           </div>

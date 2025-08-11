@@ -47,8 +47,10 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:block">
-            <Button variant="outline" className="glow-primary">
-              Download Resume
+            <Button asChild variant="outline" className="glow-primary">
+              <a href="https://drive.google.com/file/d/1jqwB-jd3h5Nw5O3HBfTEdvsQQI5iGElf/view" target="_blank" rel="noopener noreferrer" aria-label="Download Resume">
+                Download Resume
+              </a>
             </Button>
           </div>
 
@@ -77,8 +79,10 @@ const Navbar = () => {
                 {item.label}
               </a>
             ))}
-            <Button variant="outline" className="w-full glow-primary">
-              Download Resume
+            <Button asChild variant="outline" className="w-full glow-primary">
+              <a href="https://drive.google.com/file/d/1jqwB-jd3h5Nw5O3HBfTEdvsQQI5iGElf/view" target="_blank" rel="noopener noreferrer" aria-label="Download Resume">
+                Download Resume
+              </a>
             </Button>
           </div>
         )}
