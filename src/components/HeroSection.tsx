@@ -65,11 +65,21 @@ const HeroSection = () => {
                 View Resume
               </a>
             </Button>
-            <Button variant="neon" size="lg" className="group">
+            <Button 
+              variant="neon" 
+              size="lg" 
+              className="group"
+              onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               <Eye className="w-5 h-5 group-hover:scale-110 transition-transform" />
               Explore Projects
             </Button>
-            <Button variant="glass" size="lg" className="group">
+            <Button 
+              variant="glass" 
+              size="lg" 
+              className="group"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               <Mail className="w-5 h-5 group-hover:rotate-12 transition-transform" />
               Contact Me
             </Button>
