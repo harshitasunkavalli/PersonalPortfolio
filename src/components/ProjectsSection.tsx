@@ -43,12 +43,12 @@ const ProjectsSection = () => {
       description: "Blockchain-based medical records management system with secure data storage",
       image: "/api/placeholder/400/250",
       technologies: ["Blockchain", "Truffle", "MetaMask", "Ganache", "HTML"],
-      category: "Web Development",
+      category: "Blockchain",
       github: "https://github.com/harshitasunkavalli/Medichain",
     },
   ];
 
-  const categories = ["All", "Web Development", "Data Science", "Mobile Development"];
+  const categories = ["All", "Web Development", "Data Science", "Blockchain"];
 
   const filteredProjects = activeFilter === "All" 
     ? projects 
