@@ -7,40 +7,36 @@ const ProjectsSection = () => {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React frontend and Spring Boot backend",
+      title: "Learning Management System",
+      description: "Comprehensive learning platform with course management and student tracking",
       image: "/api/placeholder/400/250",
-      technologies: ["React", "Spring Boot", "MySQL", "AWS"],
+      technologies: ["SpringBoot", "Java", "MySQL", "React"],
       category: "Web Development",
       github: "#",
-      demo: "#",
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task management application with real-time updates",
+      title: "TicketGo",
+      description: "Bus ticket booking application with seat selection and payment gateway",
       image: "/api/placeholder/400/250",
-      technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
+      technologies: ["Python", "Django", "HTML", "CSS", "SQL"],
       category: "Web Development",
       github: "#",
-      demo: "#",
     },
     {
       title: "Weather Analytics Dashboard",
       description: "Data visualization dashboard for weather patterns and predictions",
       image: "/api/placeholder/400/250",
-      technologies: ["Python", "Django", "D3.js", "PostgreSQL"],
+      technologies: ["React", "MongoDB", "Node.js"],
       category: "Data Science",
       github: "#",
-      demo: "#",
     },
     {
-      title: "Mobile Banking App",
-      description: "Secure mobile banking application with biometric authentication",
+      title: "ReviewMind",
+      description: "Intelligent review analysis system using machine learning algorithms",
       image: "/api/placeholder/400/250",
-      technologies: ["React Native", "Firebase", "Node.js"],
-      category: "Mobile Development",
+      technologies: ["Python", "Machine Learning", "Scikit-learn", "Pandas"],
+      category: "Data Science",
       github: "#",
-      demo: "#",
     },
   ];
 
@@ -120,13 +116,9 @@ const ProjectsSection = () => {
 
                   {/* Action Buttons */}
                   <div className="flex gap-3">
-                    <Button variant="outline" size="sm" className="flex-1 group/btn">
+                    <Button variant="outline" size="sm" className="w-full group/btn">
                       <Github className="w-4 h-4 mr-2 group-hover/btn:rotate-12 transition-transform" />
                       GitHub
-                    </Button>
-                    <Button variant="default" size="sm" className="flex-1 group/btn">
-                      <ExternalLink className="w-4 h-4 mr-2 group-hover/btn:scale-110 transition-transform" />
-                      Live Demo
                     </Button>
                   </div>
                 </div>
