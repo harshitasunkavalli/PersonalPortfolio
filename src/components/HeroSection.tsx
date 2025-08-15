@@ -69,7 +69,12 @@ const HeroSection = () => {
               variant="neon" 
               size="lg" 
               className="group"
-              onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => {
+                const projectsSection = document.getElementById('projects');
+                if (projectsSection) {
+                  projectsSection.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
             >
               <Eye className="w-5 h-5 group-hover:scale-110 transition-transform" />
               Explore Projects
