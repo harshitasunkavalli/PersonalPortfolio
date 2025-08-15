@@ -12,7 +12,7 @@ const ProjectsSection = () => {
       image: "/api/placeholder/400/250",
       technologies: ["SpringBoot", "Java", "MySQL", "React"],
       category: "Web Development",
-      github: "#",
+      github: "https://github.com/harshitasunkavalli/LMS_S38",
     },
     {
       title: "TicketGo",
@@ -20,7 +20,7 @@ const ProjectsSection = () => {
       image: "/api/placeholder/400/250",
       technologies: ["Python", "Django", "HTML", "CSS", "SQL"],
       category: "Web Development",
-      github: "#",
+      github: "https://github.com/harshitasunkavalli/bus-reservation-system-in-django-dev",
     },
     {
       title: "Weather Analytics Dashboard",
@@ -28,7 +28,7 @@ const ProjectsSection = () => {
       image: "/api/placeholder/400/250",
       technologies: ["React", "MongoDB", "Node.js"],
       category: "Data Science",
-      github: "#",
+      github: "https://github.com/harshitasunkavalli/Weather-API",
     },
     {
       title: "ReviewMind",
@@ -36,7 +36,15 @@ const ProjectsSection = () => {
       image: "/api/placeholder/400/250",
       technologies: ["Python", "Machine Learning", "Scikit-learn", "Pandas"],
       category: "Data Science",
-      github: "#",
+      github: "https://github.com/harshitasunkavalli/Sentimentanalysisonreviews",
+    },
+    {
+      title: "MediChain",
+      description: "Blockchain-based medical records management system with secure data storage",
+      image: "/api/placeholder/400/250",
+      technologies: ["Blockchain", "Truffle", "MetaMask", "Ganache", "HTML"],
+      category: "Web Development",
+      github: "https://github.com/harshitasunkavalli/Medichain",
     },
   ];
 
@@ -116,7 +124,12 @@ const ProjectsSection = () => {
 
                   {/* Action Buttons */}
                   <div className="flex gap-3">
-                    <Button variant="outline" size="sm" className="w-full group/btn">
+                    <Button 
+                      variant="outline" 
+                      size="sm" 
+                      className="w-full group/btn"
+                      onClick={() => window.open(project.github, '_blank')}
+                    >
                       <Github className="w-4 h-4 mr-2 group-hover/btn:rotate-12 transition-transform" />
                       GitHub
                     </Button>
