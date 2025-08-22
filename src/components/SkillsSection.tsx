@@ -23,7 +23,6 @@ const SkillsSection = () => {
         { name: "React", level: 85 },
         { name: "Spring Boot", level: 80 },
         { name: "Node.js", level: 78 },
-        { name: "Express.js", level: 75 },
         { name: "Django", level: 70 },
       ],
     },
@@ -34,8 +33,6 @@ const SkillsSection = () => {
         { name: "MySQL", level: 85 },
         { name: "PostgreSQL", level: 80 },
         { name: "MongoDB", level: 82 },
-        { name: "Redis", level: 70 },
-        { name: "Firebase", level: 75 },
       ],
     },
     {
