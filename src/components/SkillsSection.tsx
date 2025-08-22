@@ -11,7 +11,6 @@ const SkillsSection = () => {
       icon: Code,
       skills: [
         { name: "Java", level: 90 },
-        { name: "Python", level: 85 },
         { name: "JavaScript", level: 88 },
         { name: "TypeScript", level: 80 },
         { name: "C++", level: 75 },
@@ -43,7 +42,6 @@ const SkillsSection = () => {
       title: "Cloud & Tools",
       icon: Cloud,
       skills: [
-        { name: "AWS", level: 75 },
         { name: "Docker", level: 70 },
         { name: "Git", level: 90 },
         { name: "Jenkins", level: 65 },
